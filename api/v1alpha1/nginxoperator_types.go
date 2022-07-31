@@ -20,6 +20,13 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
+// const (
+// 	ReasonCRNotAvailable          = "OperatorResourceNotAvailable"
+// 	ReasonDeploymentNotAvailable  = "OperandDeploymentNotAvailable"
+// 	ReasonOperandDeploymentFailed = "OperandDeploymentFailed"
+// 	ReasonSucceeded               = "OperatorSucceeded"
+// )
+
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!
 // NOTE: json tags are required.  Any new fields you add must have json tags for the fields to be serialized.
 
