@@ -1,0 +1,20 @@
+mode: set
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:59.105,65.42 6 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:80.2,83.42 4 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:98.2,100.37 3 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:103.2,103.33 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:106.2,108.12 2 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:113.2,113.16 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:123.2,130.97 2 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:65.42,68.3 2 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:68.8,68.23 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:68.23,78.3 3 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:83.42,86.3 2 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:86.8,86.23 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:86.23,96.3 3 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:100.37,102.3 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:103.33,105.3 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:108.12,110.3 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:110.8,112.3 1 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:113.16,122.3 2 0
+github.com/mahmoudalide/nginx-operator/controllers/nginxoperator_controller.go:135.76,140.2 1 0

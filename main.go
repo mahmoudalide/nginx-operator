@@ -33,11 +33,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
 	operatorv1alpha1 "github.com/mahmoudalide/nginx-operator/api/v1alpha1"
+	"github.com/mahmoudalide/nginx-operator/assets"
 	"github.com/mahmoudalide/nginx-operator/controllers"
 
 	//+kubebuilder:scaffold:imports
 
-	"github.com/mahmoudalide/nginx-operator/assets"
 	"github.com/operator-framework/operator-lib/leader"
 )
 
