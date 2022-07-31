@@ -33,7 +33,10 @@ import (
 
 	operatorv1alpha1 "github.com/mahmoudalide/nginx-operator/api/v1alpha1"
 	"github.com/mahmoudalide/nginx-operator/controllers"
+
 	//+kubebuilder:scaffold:imports
+
+	"github.com/mahmoudalide/nginx-operator/assets"
 )
 
 var (
@@ -49,6 +52,9 @@ func init() {
 }
 
 func main() {
+
+	nginxDeployment := assets.GetDeploymentFromFile("manifests/nginx_deployment.yaml")
+	_ = nginxDeployment
 	var metricsAddr string
 	var enableLeaderElection bool
 	var probeAddr string
@@ -112,4 +118,5 @@ func main() {
 		setupLog.Error(err, "problem running manager")
 		os.Exit(1)
 	}
+
 }
