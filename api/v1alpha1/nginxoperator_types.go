@@ -32,7 +32,7 @@ type NginxOperatorSpec struct {
 
 	// +kubebuilder:default=8080
 	// +kubebuilder:validation:Required
-	Port *int32 `json:"port,omitempty"`
+	Port *int32 `json:"port"`
 
 	// Replicas is the number of deployment replicas to scale
 	Replicas *int32 `json:"replicas,omitempty"`

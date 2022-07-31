@@ -1,0 +1,33 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  creationTimestamp: null
+  name: manager-role
+rules:
+- apiGroups:
+  - operator.mahmoudalide.com
+  resources:
+  - nginxoperators
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - operator.mahmoudalide.com
+  resources:
+  - nginxoperators/finalizers
+  verbs:
+  - update
+- apiGroups:
+  - operator.mahmoudalide.com
+  resources:
+  - nginxoperators/status
+  verbs:
+  - get
+  - patch
+  - update
